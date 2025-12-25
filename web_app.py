@@ -11,6 +11,7 @@ from plotly.subplots import make_subplots
 import pandas as pd
 import numpy as np
 import dash_bootstrap_components as dbc
+import webbrowser
 
 # Import data loading function
 try:
@@ -307,7 +308,16 @@ def update_graphs(continent, variable):
     return fig_scatter, fig_top, fig_continent, fig_heatmap, table_data
 
 
+
+    
+
 if __name__ == '__main__':
     print("Starting web application...")
-    print("Open http://127.0.0.1:8050 in your browser")
+    url = "http://127.0.0.1:8050"
+    print(f"Open {url} in your browser")
+    
+    # Tarayıcıyı otomatik aç
+    webbrowser.open(url)
+    
     app.run(debug=True, host='127.0.0.1', port=8050)
+
