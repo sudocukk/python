@@ -134,24 +134,6 @@ python/
 └── .gitignore                   # Git ignore file
 ```
 
-## 🎯 Features for Extra Points
-
-### Visualization (+20 points)
-- ✅ Matplotlib (baseline)
-- ✅ Seaborn (+5 points)
-- ✅ Plotly Dash web-based visualization (+15 points)
-
-### Dataset (+10 points)
-- ✅ Web scraping messy data (+10 points)
-- ✅ Detailed data cleaning steps (explained in README)
-
-### Analysis (+20 points)
-- ✅ Simple aggregations (baseline)
-- ✅ Quartiles, box plots, statistical analyses (+5 points)
-- ✅ Anomaly detection and advanced reporting (+15 points)
-
-**Total Extra Points: +50 points**
-
 ## 🔧 Requirements
 
 - Python 3.8+
@@ -163,15 +145,20 @@ python/
 - Data cleaning process automatically reports all steps
 - Anomaly detection results are presented with detailed reports
 
-## 🤝 Contributing
 
-To contribute to the project:
-1. Fork it
-2. Create a feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+### Required Extensions:
+1. **Python** (ms-python.python)
+   - Required for Python support
+   
+2. **Jupyter** (ms-toolsai.jupyter)
+   - To run `.ipynb` files
 
-## 📄 License
+3. **Pylance** (ms-python.vscode-pylance)
+   - Advanced IntelliSense for Python
 
-This project is for educational purposes.
+### Optional (But Recommended):
+4. **Black Formatter** (ms-python.black-formatter)
+   - For code formatting
+
+5. **GitLens** (eamodio.gitlens)
+   - For Git version control
