@@ -1,8 +1,3 @@
-"""
-Web-Based Visualization Application (Plotly Dash)
-Visualizes happiness data with a modern, interactive web interface.
-"""
-
 import dash
 from dash import dcc, html, Input, Output, dash_table
 import plotly.express as px
